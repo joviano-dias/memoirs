@@ -55,8 +55,8 @@ Example message formats
 
 #### example config
 ```
-event: Work Anniversaries
-description: alerts neonInc about work anniversaries
+event: Birthdays
+description: alerts neonInc about birthdays
 enabled: true
 
 cron_schedule: 45 9 * * *
@@ -85,11 +85,7 @@ Data and config can be updated either via
 #F6E1B8 #9FB39F #DBC385 #A97C50 #454D46 #293230
 ```
 
-
-### To Do 
-✔ Add timezone to date comparisons
-
-✔ Purchased icon for use (https://www.iconfinder.com/icons/7137824/soft_plant_fiber_cotton_fluffy_flower_icon) 
-
 ### Credits 
+Icon licensed from [Icon Finder](https://www.iconfinder.com/icons/7137824/soft_plant_fiber_cotton_fluffy_flower_icon)
+
 Authored by Joviano Dias while at [Springer Nature](https://www.springernature.com/gp), using [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/)
