@@ -1,0 +1,17 @@
+event: DieselDC_Birthdays
+description: alerts DieselDC group about birthdays
+enabled: false
+cron_schedule: 45 10 * * * #10 45 daily - Cron help https://crontab.guru/
+cron_timezone: Europe/London #[Wikipedia help] https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+slack_message: "Happy Birthday *${Name}* :birthday: *${Date}* ${Years} ${Months} ${Days} ${Hours} ${Minutes} ${Seconds}"
+slack_webhook_urls:
+  - http://xxx #create via https://api.slack.com/apps
+
+data_timezone: Europe/London #[Wikipedia help] https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+persons:
+  - Joviano Dias : Jul 09
+  - Blossom Rains : Aug 15
+  - Ari Burns : Feb 27
+  - Dunston Checkmans : Sep 17
+  - Pearly Sams : Dec 23

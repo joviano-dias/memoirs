@@ -1,0 +1,25 @@
+{
+  "name": "memoirs-slack-app",
+  "version": "1.0.0",
+  "description": "Posts alerts to slack on events(anniversary,birthday) etc.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js local",
+    "local": "node src/index.js local",
+    "live": "node src/index.js"
+  },
+  "author": "joviano dias",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/webhook": "^6.0.0",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "luxon": "^2.0.2",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0",
+    "yaml": "^1.10.2"
+  },
+  "engines": {
+    "node": ">=0.16.5"
+  }
+}
